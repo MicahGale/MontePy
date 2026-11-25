@@ -228,7 +228,7 @@ class Surface(Numbered_MCNP_Object, metaclass=_SurfaceClassFactory):
 
         Added number parameter
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -794,7 +794,7 @@ class CylinderOnAxis(
 
         Added number parameter
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -890,7 +890,7 @@ class XCylinder(CylinderOnAxis, metaclass=_SurfaceClassFactory, spec=_x_cylinder
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -933,7 +933,7 @@ class YCylinder(CylinderOnAxis, metaclass=_SurfaceClassFactory, spec=_y_cylinder
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -976,7 +976,7 @@ class ZCylinder(CylinderOnAxis, metaclass=_SurfaceClassFactory, spec=_z_cylinder
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -1059,7 +1059,7 @@ class CylinderParAxis(
 
         Added number parameter
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -1235,7 +1235,7 @@ class XCylinderParAxis(
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -1281,7 +1281,7 @@ class YCylinderParAxis(
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -1327,7 +1327,7 @@ class ZCylinderParAxis(
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -1404,7 +1404,7 @@ class AxisPlane(Surface, metaclass=_SurfaceClassFactory, spec=_axis_plane_spec):
 
         Added number parameter
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -1543,7 +1543,7 @@ class XPlane(AxisPlane, metaclass=_SurfaceClassFactory, spec=_x_plane_spec):
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -1586,7 +1586,7 @@ class YPlane(AxisPlane, metaclass=_SurfaceClassFactory, spec=_y_plane_spec):
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -1629,7 +1629,7 @@ class ZPlane(AxisPlane, metaclass=_SurfaceClassFactory, spec=_z_plane_spec):
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -1740,7 +1740,7 @@ class GeneralPlane(Surface, metaclass=_SurfaceClassFactory, spec=_general_plane_
 
         Added number parameter
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -1820,7 +1820,7 @@ class SphereAtOrigin(
 
     .. versionadded:: 1.3.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -1926,7 +1926,7 @@ class GeneralSphere(Surface, metaclass=_SurfaceClassFactory, spec=_general_spher
 
     .. versionadded:: 1.3.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -2002,7 +2002,7 @@ class SphereOnAxis(Surface, metaclass=_SurfaceClassFactory, spec=_sphere_on_axis
 
     .. versionadded:: 1.3.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -2143,7 +2143,7 @@ class XSphere(SphereOnAxis, metaclass=_SurfaceClassFactory, spec=_x_sphere_spec)
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -2186,7 +2186,7 @@ class YSphere(SphereOnAxis, metaclass=_SurfaceClassFactory, spec=_y_sphere_spec)
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -2229,7 +2229,7 @@ class ZSphere(SphereOnAxis, metaclass=_SurfaceClassFactory, spec=_z_sphere_spec)
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -2308,7 +2308,7 @@ class ConeOnAxis(Surface, metaclass=_SurfaceClassFactory, spec=_cone_on_axis_spe
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -2501,7 +2501,7 @@ class XCone(ConeOnAxis, metaclass=_SurfaceClassFactory, spec=_x_cone_spec):
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -2548,7 +2548,7 @@ class YCone(ConeOnAxis, metaclass=_SurfaceClassFactory, spec=_y_cone_spec):
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -2595,7 +2595,7 @@ class ZCone(ConeOnAxis, metaclass=_SurfaceClassFactory, spec=_z_cone_spec):
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -2698,7 +2698,7 @@ class ConeParAxis(Surface, metaclass=_SurfaceClassFactory, spec=_cone_par_axis_s
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -2945,7 +2945,7 @@ class XConeParAxis(
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -2995,7 +2995,7 @@ class YConeParAxis(
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -3045,7 +3045,7 @@ class ZConeParAxis(
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -3190,7 +3190,7 @@ class AxisAlignedQuadric(
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -3328,7 +3328,7 @@ class GeneralQuadric(
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -3478,7 +3478,7 @@ class Torus(Surface, metaclass=_SurfaceClassFactory, spec=_torus_spec):
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -3863,7 +3863,7 @@ class XTorus(Torus, metaclass=_SurfaceClassFactory, spec=_x_torus_spec):
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -3906,7 +3906,7 @@ class YTorus(Torus, metaclass=_SurfaceClassFactory, spec=_y_torus_spec):
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -3949,7 +3949,7 @@ class ZTorus(Torus, metaclass=_SurfaceClassFactory, spec=_z_torus_spec):
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -4031,7 +4031,7 @@ class Box(Surface, metaclass=_SurfaceClassFactory, spec=_box_spec):
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -4148,7 +4148,7 @@ class RectangularParallelepiped(
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -4233,7 +4233,7 @@ class SphereMacrobody(
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -4326,7 +4326,7 @@ class RightCircularCylinder(Surface, metaclass=_SurfaceClassFactory, spec=_rcc_s
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -4438,7 +4438,7 @@ class RightHexagonalPrism(Surface, metaclass=_SurfaceClassFactory, spec=_rhp_spe
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -4540,7 +4540,7 @@ class RightEllipticalCylinder(Surface, metaclass=_SurfaceClassFactory, spec=_rec
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -4640,7 +4640,7 @@ class TruncatedRightCone(Surface, metaclass=_SurfaceClassFactory, spec=_trc_spec
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -4710,7 +4710,7 @@ class Ellipsoid(Surface, metaclass=_SurfaceClassFactory, spec=_ellipsoid_spec):
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -4791,7 +4791,7 @@ class Wedge(Surface, metaclass=_SurfaceClassFactory, spec=_wedge_spec):
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
@@ -4954,7 +4954,7 @@ class ArbitraryPolyhedron(Surface, metaclass=_SurfaceClassFactory, spec=_arb_spe
 
     .. versionadded:: 1.4.0
 
-    .. versionchanged:: 1.6.0b1
+    .. versionchanged:: 1.6.0
 
         Added ``jit_parse`` parameter
 
